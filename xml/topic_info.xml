@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topic_info_list>
+	<version>1.0.0</version>
+	<author>makou_yuan@163.com</author>
+	<build_time>2021-2-14 13:00:00</build_time>
+	<topic_info>
+		<topic dt_len="50000" size="10">camera_eq4_data</topic>
+		<topic dt_len="50000" size="10">vehinfo_data</topic>
+	</topic_info>
+</topic_info_list>
