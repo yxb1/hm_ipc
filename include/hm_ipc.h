@@ -4,26 +4,24 @@
 #include <string>
 #include <map>
 #include <pthread.h>
-extern "C"{
 #include "hm_buffer.h"
-} 
 #include "tinyxml.h"
 
 #define TOPIC_NAME_MAX_LEN 16
 #define TOPIC_MAX_NUM 32
 
-#pragma pack(1)
+//#pragma pack(1)
 typedef struct
 {
     char name[TOPIC_NAME_MAX_LEN];
     uint32_t total_len;
     HM_BUFF buff_info;
 }SHT_HEADER;
-#pragma pack()
+//#pragma pack()
 /*-+----------+------------------+----------------+---------+-*
    |SHT_HEAHER|TOPIC_ARRARY_1    |TOPIC_ARRARY_2  | ....    |
  *-+----------+------------------+----------------+---------+-*/
-#pragma pack(1)
+//#pragma pack(1)
 typedef struct
 {
     uint32_t used_num;
@@ -33,7 +31,7 @@ typedef struct
     uint32_t data_len;
     char sht_data[0];
 }SHT_BUFF;
-#pragma pack()
+//#pragma pack()
 
 class HMIpc {
 public:

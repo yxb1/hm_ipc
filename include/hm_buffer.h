@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-#pragma pack(1)
+//#pragma pack(1)
 typedef struct {
     char *data;
     unsigned char front;
@@ -12,7 +12,7 @@ typedef struct {
     unsigned int dt_len;
     unsigned int size;
 }HM_BUFF;
-#pragma pack()
+//#pragma pack()
 
 void hm_buff_init(HM_BUFF *buff, char *addr);
 char hm_buff_push(HM_BUFF *buff, void *dst, void *src);

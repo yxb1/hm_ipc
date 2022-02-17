@@ -10,4 +10,7 @@ output.tar.gz
 output
 log
 build
+*.so
+hm_write
+hm_read
 *.core*

@@ -14,9 +14,8 @@
 #include <pthread.h>
 #include "hm_ipc.h"
 #include "parse_xml.h"
-extern "C"{
 #include "hm_buffer.h"
-}  
+
 int32_t HMIpc::HMIpcInit() {
     SHT_BUFF tmp;
     std::string path = "../xml/topic_info.xml";

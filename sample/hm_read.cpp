@@ -11,13 +11,7 @@
 #include <memory.h>
 #include <unistd.h>
 #include <stdio.h>
-#ifdef __cplusplus
-extern "C"{
-#endif
 #include "hm_buffer.h"
-#ifdef __cplusplus 
-} 
-#endif 
 #include "hm_ipc.h"
 #include "parse_xml.h"
 
